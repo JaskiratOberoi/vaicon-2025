@@ -11,7 +11,7 @@ function Hero() {
       <div className="banner"></div>
       <div className="logo">
         <div className="heading orbitron-font-set">VAICON 2025</div>
-        <div className="subline">
+        <div className="subline" id="about">
           18th Annual Conference of Venous Association of India
         </div>
       </div>

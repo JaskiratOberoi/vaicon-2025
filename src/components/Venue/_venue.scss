@@ -1,0 +1,60 @@
+.venue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 7rem 0;
+
+  .venue-title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .venue-title-sub {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+
+  .venue-map {
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+
+    iframe {
+      border: 0;
+    }
+
+    img {
+      min-width: 600px;
+      min-height: 450px;
+    }
+  }
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  margin: 7rem auto;
+  .c-title {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .contact-table {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 3rem;
+    border-radius: 15px;
+    background-color: $table-primary;
+    margin-top: 3rem;
+    font-size: 2rem;
+
+    div {
+      padding: 1rem;
+    }
+  }
+}
