@@ -1,0 +1,87 @@
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  align-items: center;
+
+  .banner {
+    background-image: url("../../assets/monuments.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 290px;
+    width: 100%;
+    background-color: #fff;
+  }
+  .logo {
+    text-align: center;
+    padding: 0.5rem 0;
+    padding-bottom: 1rem;
+    width: 100%;
+    background-color: #20bf55;
+    background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+
+    .heading {
+      font-size: 5rem;
+      font-weight: bold;
+    }
+
+    .subline {
+      font-size: 3rem;
+      margin-top: -20px;
+    }
+  }
+
+  .hero-content {
+    display: flex;
+    width: 80%;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+
+    .section-image {
+      max-width: 40%;
+      height: 100%;
+      text-align: center;
+      img {
+        width: 95%;
+      }
+    }
+
+    .section-content {
+      max-width: 30vw;
+      font-size: 1.2rem;
+      text-align: justify;
+    }
+  }
+
+  .org {
+    display: flex;
+    flex-direction: column;
+
+    .org-heading {
+      font-size: 1.2rem;
+    }
+    .org-members {
+      .members {
+        display: flex;
+        list-style: none;
+        padding-top: 2rem;
+
+        li {
+          padding: 0 2rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          img {
+            border-radius: 50rem;
+            border: 10px solid;
+            border-color: $secondary;
+            max-width: 300px;
+          }
+        }
+      }
+    }
+  }
+}
