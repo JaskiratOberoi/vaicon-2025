@@ -35,7 +35,7 @@ export default function ColorTabs() {
 
   return (
     <>
-      <Box sx={{ width: "100%" }} className="schedule">
+      <Box sx={{ width: "100%" }} className="schedule" id="schedule">
         <Box
           sx={{ borderBottom: 1, borderColor: "divider" }}
           className="schedule-tabs"
