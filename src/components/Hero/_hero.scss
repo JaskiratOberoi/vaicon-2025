@@ -50,8 +50,12 @@
 
     .section-content {
       max-width: 30vw;
-      font-size: 1.2rem;
+      font-size: 1rem;
       text-align: justify;
+
+      .crux-table {
+        text-align: center;
+      }
     }
   }
 
@@ -79,6 +83,13 @@
             border: 10px solid;
             border-color: $secondary;
             max-width: 300px;
+          }
+
+          .designation {
+            margin-top: 0.5rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-align: center;
           }
         }
       }
