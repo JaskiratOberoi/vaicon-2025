@@ -1,0 +1,70 @@
+.registration {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 5rem 0;
+  .reg-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .reg-fee-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .reg-table {
+      th {
+        padding: 0.5rem 1rem;
+        text-transform: uppercase;
+        font-weight: 300;
+        // background-color: $table-primary;
+        border-radius: 5px;
+
+        &:first-child,
+        &:nth-child(3),
+        &:nth-child(5) {
+          background-color: $table-primary;
+        }
+        &:nth-child(2),
+        &:nth-child(4),
+        &:nth-child(6) {
+          background-color: $table-secondary;
+        }
+      }
+
+      td {
+        text-align: center;
+        padding: 0.5rem 1rem;
+        background-color: #f1f1f1;
+        border-radius: 5px;
+
+        &:first-child {
+          text-align: left;
+        }
+
+        &:first-child,
+        &:nth-child(3),
+        &:nth-child(5) {
+          background-color: $table-primary;
+        }
+        &:nth-child(2),
+        &:nth-child(4),
+        &:nth-child(6) {
+          background-color: $table-secondary;
+        }
+      }
+    }
+
+    .gst {
+      color: #1c1c1c;
+      font-style: italic;
+    }
+
+    .for-reg {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+  }
+}
