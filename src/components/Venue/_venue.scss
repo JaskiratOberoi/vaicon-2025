@@ -34,27 +34,3 @@
     }
   }
 }
-
-.contact-us {
-  display: flex;
-  flex-direction: column;
-  margin: 7rem auto;
-  .c-title {
-    font-size: 3rem;
-    text-align: center;
-  }
-
-  .contact-table {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem 3rem;
-    border-radius: 15px;
-    background-color: $table-primary;
-    margin-top: 3rem;
-    font-size: 2rem;
-
-    div {
-      padding: 1rem;
-    }
-  }
-}

@@ -1,3 +1,4 @@
+import Contact from "./components/Contact/Contact";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Organizer from "./components/Organizer/Organizer";
@@ -13,6 +14,7 @@ function App() {
       <ColorTabs />
       <Organizer />
       <Venue />
+      <Contact />
     </div>
   );
 }
