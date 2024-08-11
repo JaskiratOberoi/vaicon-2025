@@ -1,6 +1,7 @@
 .contact-us {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin: 7rem auto;
   max-width: 60%;
   .c-title {
@@ -15,7 +16,8 @@
     border-radius: 15px;
     background-color: $table-primary;
     margin-top: 3rem;
-    font-size: 2rem;
+    font-size: 150%;
+    width: auto;
 
     div {
       padding: 1rem;

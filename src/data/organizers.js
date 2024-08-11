@@ -88,7 +88,7 @@ export const organizers = [
     ],
   },
   {
-    sectionTitle: "NATIONAL  EXECUTIVE COMMITTEE(EC) MEMBERS",
+    sectionTitle: "National  Executive Committee(EC) Members",
     members: [
       {
         userImage: male,
