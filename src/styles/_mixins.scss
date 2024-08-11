@@ -23,6 +23,37 @@
 
     .section-content {
       max-width: 90vw !important;
+      margin-top: 1rem;
+    }
+  }
+
+  .members {
+    justify-content: center;
+    li {
+      padding: 1rem 0 !important;
+    }
+  }
+
+  .reg-table {
+    padding: 0 1rem;
+    font-size: 0.9rem;
+  }
+
+  .org-card {
+    width: 30vw !important;
+  }
+
+  .venue .venue-map img {
+    width: 500px !important;
+    height: 350px !important;
+    padding-top: 1rem;
+  }
+
+  .contact-us {
+    max-width: 100% !important;
+
+    .contact-table {
+      margin: 1rem;
     }
   }
 }
