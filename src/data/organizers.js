@@ -96,7 +96,7 @@ export const organizers = [
       },
       {
         userImage: male,
-        name: "Muneer Ahmad Para",
+        name: "Dr. Muneer Ahmad Para",
       },
       {
         userImage: male,
