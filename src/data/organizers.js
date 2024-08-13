@@ -11,9 +11,22 @@ import shoaib from "../assets/orgPics/shoaib.png";
 import desai from "../assets/orgPics/desai.png";
 import ravul from "../assets/orgPics/ravul.png";
 import robbie from "../assets/orgPics/robbie.png";
+import muneer from "../assets/orgPics/muneer.png";
+import viswa from "../assets/orgPics/viswa.png";
+import zubair from "../assets/orgPics/zubair.png";
+import pritee from "../assets/orgPics/pritee.png";
+import csk from "../assets/orgPics/csk.png";
+import nihar from "../assets/orgPics/nihar.png";
+import ajay from "../assets/orgPics/ajay.png";
+import brijesh from "../assets/orgPics/brijesh.png";
+import mrk from "../assets/orgPics/mrk.png";
+import mark from "../assets/orgPics/mark.png";
+import emd from "../assets/orgPics/end.png";
+import jfu from "../assets/orgPics/jfu.png";
+import jpb from "../assets/orgPics/jpb.png";
 
-import male from "../assets/orgPics/male.png";
-import female from "../assets/orgPics/female.png";
+// import male from "../assets/orgPics/male.png";
+// import female from "../assets/orgPics/female.png";
 
 export const organizers = [
   {
@@ -91,35 +104,35 @@ export const organizers = [
     sectionTitle: "National  Executive Committee(EC) Members",
     members: [
       {
-        userImage: male,
+        userImage: zubair,
         name: "Dr. Zubair Rashid",
       },
       {
-        userImage: male,
+        userImage: muneer,
         name: "Dr. Muneer Ahmad Para",
       },
       {
-        userImage: male,
+        userImage: brijesh,
         name: "Dr. Brijesh Singh",
       },
       {
-        userImage: male,
+        userImage: ajay,
         name: "Dr. Ajay Khanna",
       },
       {
-        userImage: female,
+        userImage: pritee,
         name: "Dr. Pritee Sharma",
       },
       {
-        userImage: male,
+        userImage: viswa,
         name: "Dr. Viswanath Atreyapurapu",
       },
       {
-        userImage: male,
+        userImage: csk,
         name: "Dr. Chandrashekar A. R",
       },
       {
-        userImage: male,
+        userImage: nihar,
         name: "Dr. Nihar Ranjan Pardhan",
       },
     ],
@@ -128,22 +141,22 @@ export const organizers = [
     sectionTitle: "International Members",
     members: [
       {
-        userImage: male,
+        userImage: mark,
         name: "Dr. Malouf G. Mark",
         designation: "Australia",
       },
       {
-        userImage: male,
+        userImage: jfu,
         name: "Dr. J.F. UHL",
         designation: "France",
       },
       {
-        userImage: male,
+        userImage: jpb,
         name: "Dr. J.P. Benigni",
         designation: "France",
       },
       {
-        userImage: male,
+        userImage: emd,
         name: "Dr. Emad Hussein",
         designation: "Egypt",
       },
@@ -153,7 +166,7 @@ export const organizers = [
     sectionTitle: "Invited Members",
     members: [
       {
-        userImage: male,
+        userImage: mrk,
         name: "Dr. Nick Morrison",
         designation: "USA",
       },
