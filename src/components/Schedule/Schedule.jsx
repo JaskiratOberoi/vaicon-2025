@@ -52,13 +52,13 @@ export default function ColorTabs() {
           </Tabs>
         </Box>
         <CustomTabPanel value={value} index={0}>
-          CME Schedule TBD
+          {/* CME Schedule TBD */}
         </CustomTabPanel>
         <CustomTabPanel value={value} index={1}>
-          Day One Schedule TBD
+          {/* Day One Schedule TBD */}
         </CustomTabPanel>
         <CustomTabPanel value={value} index={2}>
-          Day Two Schedule TBD
+          {/* Day Two Schedule TBD */}
         </CustomTabPanel>
       </Box>
     </>
